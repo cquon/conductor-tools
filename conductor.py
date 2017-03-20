@@ -879,7 +879,7 @@ parser.add_argument('command',
 parser.add_argument('-h', '--help', action='store_true')
 args, sub_args = parser.parse_known_args()
 
-if len(sys.argv) < 3:
+if len(sys.argv) < 2:
     print(parser.format_help())
     exit(1)
 
